@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @posting.name %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @posting.title %>
+</p>
+
+<p>
+  <b>Industry:</b>
+  <%= @posting.industry %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @posting.location %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @posting.description %>
+</p>
+
+<p>
+  <b>Requirements:</b>
+  <%= @posting.requirements %>
+</p>
+
+<p>
+  <b>Qualifications:</b>
+  <%= @posting.qualifications %>
+</p>
+
+
+<%= link_to 'Edit', edit_posting_path(@posting) %> |
+<%= link_to 'Back', postings_path %>
